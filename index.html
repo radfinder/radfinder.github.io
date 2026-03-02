@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html class="fontawesome-i2svg-active fontawesome-i2svg-complete">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="description"
+          content="RadFinder: Disease-Aware Vision-Language Pretraining for 3D CT">
+    <meta name="keywords" content="RadFinder, 3D CT, vision-language model, contrastive learning, radiology, medical imaging">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RadFinder</title>
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="svgstuff.css">
+    <link rel="stylesheet" href="bulma.min.css">
+    <link rel="stylesheet" href="bulma-carousel.min.css">
+    <link rel="stylesheet" href="bulma-slider.min.css">
+    <link rel="stylesheet" href="fontawesome.all.min.css">
+    <link rel="stylesheet" href="academicons.min.css">
+    <link rel="stylesheet" href="projects.css">
+
+    <script src="jquery.min.js"></script>
+    <script src="main.js"></script>
+    <script defer="defer" src="fontawesome.all.min.js"></script>
+    <script src="bulma-carousel.min.js"></script>
+    <script src="bulma-slider.min.js"></script>
+    <script src="projects.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div class="navbar-menu">
+        <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+            <a class="navbar-item" href="https://ging.ai">
+                <span class="icon">
+                    <i class="fas fa-home"></i>
+                </span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    More Research
+                </a>
+                <div class="navbar-dropdown">
+                    <a class="navbar-item" href="https://entity-net.github.io/" target="_blank">
+                        EntityNet
+                    </a>
+                    <a class="navbar-item" href="https://github.com/lmb-freiburg/ovqa" target="_blank">
+                        Open-ended Visual Question Answering
+                    </a>
+                    <a class="navbar-item" href="https://ovad-benchmark.github.io/" target="_blank">
+                        Open Vocabulary Attribute Detection
+                    </a>
+                    <a class="navbar-item" href="https://github.com/simon-ging/coot-videotext" target="_blank">
+                        Cooperative Hierarchical Transformer
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- ===================== HERO / TITLE ===================== -->
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h1 class="title is-1 publication-title">RadFinder: Learning to Read Where to Look &mdash; Disease-Aware Vision&ndash;Language Pretraining for 3D CT</h1>
+                    <div class="is-size-5 publication-authors">
+                        <span class="author-block"><a href="https://ging.ai/">Simon Ging</a><sup>1,2</sup>,</span>
+                        <span class="author-block"><a href="https://www.linkedin.com/in/philipp-g-arnold/">Philipp Arnold</a><sup>3</sup>,</span>
+                        <span class="author-block"><a href="https://github.com/bastiscode">Sebastian Walter</a><sup>4</sup>,</span>
+                        <span class="author-block"><a href="https://www.linkedin.com/in/hanialnahas/">Hani Alnahas</a><sup>1</sup>,</span>
+                        <span class="author-block"><a href="https://github.com/hannahbast">Hannah Bast</a><sup>4</sup>,</span>
+                        <span class="author-block"><a href="https://www.linkedin.com/in/elmar-kotter-4a671334/">Elmar Kotter</a><sup>3</sup>,</span>
+                        <span class="author-block"><a href="https://jiancheng-yang.com/">Jiancheng Yang</a><sup>5,6</sup>,</span>
+                        <span class="author-block"><a href="https://behzadbozorgtabar.com/">Behzad Bozorgtabar</a><sup>2</sup>,</span>
+                        <span class="author-block"><a href="https://lmb.informatik.uni-freiburg.de/people/brox/">Thomas Brox</a><sup>1</sup></span>
+                    </div>
+                    <div class="is-size-6 publication-authors" style="margin-top: 0.5rem;">
+                        <span><sup>1</sup>Computer Vision Group, University of Freiburg, Germany</span><br>
+                        <span><sup>2</sup>Adaptive &amp; Agentic AI (A3) Lab, Aarhus University, Denmark</span><br>
+                        <span><sup>3</sup>Department of Radiology, Medical Center &ndash; University of Freiburg, Germany</span><br>
+                        <span><sup>4</sup>Chair of Algorithms and Data Structures, University of Freiburg, Germany</span><br>
+                        <span><sup>5</sup>ELLIS Institute Finland</span><br>
+                        <span><sup>6</sup>School of Electrical Engineering, Aalto University, Finland</span>
+                    </div>
+
+                    <div class="column has-text-centered">
+                        <div class="publication-links">
+                            <!-- PDF Link -->
+                            <span class="link-block">
+                                <a href="#"
+                                   class="external-link button is-normal is-rounded is-dark" target="_blank">
+                                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                                    <span>Paper (coming soon)</span>
+                                </a>
+                            </span>
+                            <!-- arXiv Link -->
+                            <span class="link-block">
+                                <a href="#"
+                                   class="external-link button is-normal is-rounded is-dark" target="_blank">
+                                    <span class="icon">
+                                        <img src="arxiv-logomark-small-white.svg" alt="arXiv"
+                                             style="height:1em; width:auto;">
+                                    </span>
+                                    <span>arXiv (coming soon)</span>
+                                </a>
+                            </span>
+                            <!-- Code Link -->
+                            <span class="link-block">
+                                <a href="#"
+                                   class="external-link button is-normal is-rounded is-dark" target="_blank">
+                                    <span class="icon"><i class="fab fa-github"></i></span>
+                                    <span>Code (coming soon)</span>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== TEASER FIGURE ===================== -->
+<section class="hero teaser">
+    <div class="container is-max-desktop" style="width: 100%;">
+        <div class="hero-body" style="padding-bottom: 2rem; padding-top: 0rem;">
+            <div class="content has-text-centered">
+                <img src="figure1.png" alt="RadFinder method overview" style="width: 100%; max-width: 1000px;">
+                <p style="margin-top: 0.75rem; text-align: center; max-width: 900px; margin-left: auto; margin-right: auto;">
+                    <b>Overview of the RadFinder architecture and training pipeline.</b>
+                    A 3D CT scan is processed by a frozen parallel window encoder and a trainable global encoder to extract both volume-level and slice-level embeddings.
+                    A trainable text encoder processes full radiology reports, localized text snippets, and disease prompts.
+                    The model is optimized via three contrastive objectives in a shared embedding space:
+                    a global contrastive loss, a disease prompt loss, and an intra-scan localization loss.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== ABSTRACT ===================== -->
+<section class="section" style="padding-top: 3rem;">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Abstract</h2>
+                <div class="content has-text-justified">
+                    <p>
+                        Recent 3D CT vision&ndash;language models align volumes with reports via contrastive pretraining, but typically rely on limited public data and provide only coarse global supervision.
+                        We train a 3D CT vision&ndash;language model on 98k report&ndash;volume pairs (50k patients) collected at a single hospital, combined with public datasets, using SigLIP-style contrastive pretraining together with prompt-based disease supervision in the shared vision&ndash;text embedding space.
+                        On CT-RATE, our model achieves state-of-the-art text-to-image retrieval (R@10 31.5 vs. 22.2) and competitive disease classification (AUC 83.8 vs. 83.8), with consistent results on Rad-ChestCT (AUC 77.0 vs. 77.3).
+                    </p>
+                    <p>
+                        We further observe that radiologists routinely reference specific images within their reports (e.g., &ldquo;series&nbsp;X, image&nbsp;Y&rdquo;), linking textual descriptions to precise axial locations.
+                        We automatically mine 262k such snippet&ndash;slice pairs and introduce the task of <em>intra-scan snippet localization</em>&mdash;predicting the axial depth referred to by a text snippet&mdash;reducing mean absolute error to 36.3&thinsp;mm at 12&thinsp;mm feature resolution, compared with 67.0&thinsp;mm for the best baseline.
+                        Adding this localization objective leaves retrieval and classification broadly unchanged within confidence bounds, yielding a single unified model for retrieval, classification, and intra-scan grounding.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== METHOD ===================== -->
+<section class="section" style="padding-top: 3rem;">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Method</h2>
+                <div class="content has-text-justified">
+                    <p>
+                        <b>Dataset.</b>
+                        We collect 97,760 report&ndash;volume pairs from 50,474 patients at a single hospital, spanning 13&nbsp;years of clinical practice and covering chest (46%), abdomen (22%), and combined chest&ndash;abdomen (33%) studies.
+                        Reports are anonymized and translated to English using Gemma&nbsp;3&nbsp;27B.
+                        Using the RATE protocol, we extract 93 chest and 226 abdomen binary findings per report via LLM-based question answering.
+                        We additionally mine <b>261,800 snippet&ndash;slice pairs</b> by extracting series/image references that radiologists embed in their reports (e.g., &ldquo;hepatic lesion, see series&nbsp;4, image&nbsp;38&rdquo;), achieving 99.4% precision and 90.2% recall.
+                    </p>
+                    <p>
+                        <b>Architecture.</b>
+                        RadFinder builds on the pretrained SPECTRE model with a two-stage vision encoder: a frozen ViT-Large local backbone processes 128&times;128&times;32 voxel windows, and a trainable 4-layer global feature combiner aggregates window-level features.
+                        The text encoder is Qwen3-Embedding (0.6B) with LoRA adapters.
+                        SigLIP projection heads map both modalities to a 512-dim shared space.
+                    </p>
+                    <p>
+                        <b>Training objectives.</b>
+                        We optimize three losses jointly:
+                        (1)&nbsp;a <em>global SigLIP contrastive loss</em> aligning full volumes with full reports;
+                        (2)&nbsp;a <em>prompt-based disease loss</em> that represents binary disease labels as positive/negative text prompts and supervises classification via BCE in the shared embedding space; and
+                        (3)&nbsp;an <em>intra-scan localization loss</em> that aligns text snippets with their referenced axial depth positions using within-scan negatives and Gaussian soft targets at 12&thinsp;mm resolution.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== RESULTS: RETRIEVAL & CLASSIFICATION ===================== -->
+<section class="section" style="padding-top: 3rem;">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Results</h2>
+                <div class="content has-text-justified">
+                    <p>
+                        RadFinder achieves <b>state-of-the-art text-to-image retrieval</b> on CT-RATE (R@10&nbsp;31.5, up from 22.2) and on Merlin (R@1&nbsp;69.0, up from 59.4), and <b>competitive disease classification</b> (AUC&nbsp;83.8 on CT-RATE, 77.0 on Rad-ChestCT), matching the best prior methods within confidence bounds.
+                        Training on the internal RefCT dataset alone already surpasses all published baselines on retrieval, demonstrating strong cross-dataset transfer.
+                    </p>
+                    <p>
+                        For the novel task of <b>intra-scan snippet localization</b>, RadFinder achieves MAE&nbsp;36.3&thinsp;mm at 12&thinsp;mm feature resolution &mdash; nearly halving the error of the best baseline (67.0&thinsp;mm).
+                        This localization objective can be trained jointly with the global objectives without degrading retrieval or classification.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== ACKNOWLEDGEMENTS ===================== -->
+<section class="section" style="padding-top: 3rem;">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Acknowledgements</h2>
+                <div class="content has-text-justified">
+                    <p>
+                        This research was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) 417962828, 539134284 &mdash; through EFRE (FEIH_2698644) and the state of Baden-W&uuml;rttemberg, and 499552394 &mdash; SFB 1597 &mdash; Small Data.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== BIBTEX ===================== -->
+<section class="section" style="padding-top: 3rem;">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">BibTeX</h2>
+                <div class="content has-text-justified">
+        <pre><code>@article{ging2026radfinder,
+  author    = {Simon Ging and Philipp Arnold and Sebastian Walter and Hani Alnahas and Hannah Bast and Elmar Kotter and Jiancheng Yang and Behzad Bozorgtabar and Thomas Brox},
+  title     = {Learning to Read Where to Look: Disease-Aware Vision--Language Pretraining for 3D CT},
+  year      = {2026},
+  note      = {Preprint},
+}</code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class="content">
+                    <p>
+                        Webpage template adapted from <a rel="license" href="https://nerfies.github.io/">Nerfies</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="flickity.pkgd.min.js"></script>
+
+</body>
+</html>
